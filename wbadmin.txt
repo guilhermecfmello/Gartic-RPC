@@ -1,0 +1,6 @@
+===================== Relario wbadmin =====================
+Numero de quadros: 2Quadro Id: 1
+    Numero de linhas: 2
+Quadro Id: 0
+    Numero de linhas: 4
+Total de linhas do servidor: 6

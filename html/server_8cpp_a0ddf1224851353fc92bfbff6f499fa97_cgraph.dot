@@ -1,0 +1,30 @@
+digraph "main"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="main",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="addBoard",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$server_8cpp.html#a3e86c828bd1a0395140a3c27fd6d1d8d",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="board_obj::getId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classboard__obj.html#a0b81f826dc4e6c851c84c1fbb80cc4c8",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="addLine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$server_8cpp.html#a927ef70dc6d962c9c946d051d6e4b09d",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Line::set_color",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_line.html#aab1ca0c2555b30a473719684ce15de0d",tooltip=" "];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Line::set_first_anchor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_line.html#af2b4f0ed4829b796ffc6eb19f2c9ab55",tooltip=" "];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Line::set_second_anchor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_line.html#ad8f73aa2faaf9f339f4f8b9df5f4848e",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="getBoards",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$server_8cpp.html#a9a9209e0b4ce163f49fcc08f53817b0b",tooltip=" "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="getColorBoard",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$server_8cpp.html#a7ef16601042e4a7e7847318214eade63",tooltip=" "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="getLines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$server_8cpp.html#abc4dc56e047bfcd8accca4456b0f29a9",tooltip=" "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="getNumberOfLines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$server_8cpp.html#a7fd8f5c31492c5fa4f60f9626f74daf6",tooltip=" "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="wbadmin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$server_8cpp.html#a2b58e9a94fde0d474fe55937b60176c7",tooltip=" "];
+}
